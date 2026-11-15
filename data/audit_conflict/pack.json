@@ -1,0 +1,1 @@
+{"target":3,"initial":[["a",1,10,10,false]],"transactions":[{"id":"u","window":[2,2],"after":[],"writes":[["a",2,10,11,false]]},{"id":"v","window":[2,2],"after":["u"],"writes":[["a",3,10,12,false]]}],"pages":[]}

@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "kind": "cli",
+  "setup": [
+    [
+      "python3",
+      "-m",
+      "pip",
+      "install",
+      "-r",
+      "requirements.txt"
+    ]
+  ],
+  "verify": [
+    "python3",
+    "evidence_checks.py",
+    "normal"
+  ],
+  "demo": [
+    "python3",
+    "evidence.py",
+    "data/tiny",
+    "data/tiny/witness.json"
+  ]
+}
