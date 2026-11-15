@@ -13,13 +13,15 @@
   ],
   "verify": [
     "python3",
-    "evidence_checks.py",
-    "normal"
+    "analysis.py",
+    "verify",
+    "data/incident",
+    "output"
   ],
   "demo": [
     "python3",
-    "evidence.py",
-    "data/tiny",
-    "data/tiny/witness.json"
+    "analysis.py",
+    "demo",
+    "data/incident"
   ]
 }

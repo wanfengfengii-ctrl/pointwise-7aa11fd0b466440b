@@ -15,3 +15,7 @@ credentials.json
 *token*.json
 *.pem
 *.key
+
+# 本地依赖引导（pip wheel）与离线 SciPy 安装目录，非交付物
+.bootstrap/
+.pydeps/
